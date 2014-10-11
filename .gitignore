@@ -17,3 +17,6 @@ gen
 
 # gradle
 library/build
+
+# IntelliJ
+*.iml

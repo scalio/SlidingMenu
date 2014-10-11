@@ -1,7 +1,7 @@
+apply plugin: 'holoeverywhere-library'
 apply plugin: 'android-library'
 
 dependencies {
-    compile project(':external:HoloEverywhere:library')
 }
 
 android {
@@ -34,5 +34,14 @@ android {
         // by a similar customization.
         debug.setRoot('build-types/debug')
         release.setRoot('build-types/release')
+    }
+}
+
+holoeverywhere {
+    addons {
+        preferences
+    }
+    library {
+        version = 'latest'
     }
 }
