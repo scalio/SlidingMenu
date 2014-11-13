@@ -42,6 +42,6 @@ holoeverywhere {
         preferences
     }
     library {
-        version = 'latest'
+        version = '2.1.0'
     }
 }
